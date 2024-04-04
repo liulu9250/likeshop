@@ -1,0 +1,85 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_likeshop_02",
+      "children" : [ {
+        "name" : "test_brand_01",
+        "uid" : "64cd1819621a7851",
+        "parentUid" : "2d0da1c0d0619479184e0a5c91af1552",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712218286469,
+          "stop" : 1712218286524,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d0da1c0d0619479184e0a5c91af1552"
+    }, {
+      "name" : "test_likeshop_01",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "80cbd5f92b19b129",
+        "parentUid" : "063fda87edd8aef2cce1143de43b733f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712218851985,
+          "stop" : 1712218852054,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "997fac99254b6658",
+        "parentUid" : "063fda87edd8aef2cce1143de43b733f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1712218852054,
+          "stop" : 1712218852054,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03",
+        "uid" : "898ef67d8afa4adb",
+        "parentUid" : "063fda87edd8aef2cce1143de43b733f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712218852056,
+          "stop" : 1712218852135,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "063fda87edd8aef2cce1143de43b733f"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}

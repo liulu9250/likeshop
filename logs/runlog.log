@@ -1,0 +1,8 @@
+2023-10-04 09:20:35,409 user.py [line:23] INFO {"code":1,"msg":"登录成功","data":[],"show":0,"time":"0.026038","wait":3,"url":""}
+2023-10-04 09:20:35,470 brand.py [line:24] INFO {"code":1,"msg":"添加成功！","data":[],"show":0,"time":"0.040685","wait":3,"url":""}
+2024-04-04 16:04:42,244 user.py [line:23] INFO {"code":1,"msg":"登录成功","data":[],"show":0,"time":"0.064596","wait":3,"url":""}
+2024-04-04 16:04:42,333 brand.py [line:24] INFO {"code":1,"msg":"添加成功！","data":[],"show":0,"time":"0.060127","wait":3,"url":""}
+2024-04-04 16:11:05,464 user.py [line:23] INFO {"code":1,"msg":"登录成功","data":[],"show":0,"time":"0.038229","wait":3,"url":""}
+2024-04-04 16:11:05,517 brand.py [line:24] INFO {"code":0,"msg":"该名称已存在","data":[],"show":1,"time":"0.044001","wait":3,"url":""}
+2024-04-04 16:11:26,467 user.py [line:23] INFO {"code":1,"msg":"登录成功","data":[],"show":0,"time":"0.043602","wait":3,"url":""}
+2024-04-04 16:11:26,523 brand.py [line:24] INFO {"code":0,"msg":"该名称已存在","data":[],"show":1,"time":"0.036712","wait":3,"url":""}

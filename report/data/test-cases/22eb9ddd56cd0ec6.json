@@ -1,0 +1,88 @@
+{
+  "uid" : "22eb9ddd56cd0ec6",
+  "name" : "test_01",
+  "fullName" : "case.test_likeshop_01.TestLikeshop#test_01",
+  "historyId" : "f3d3ff27662faf31cc805d70e373c610",
+  "time" : {
+    "start" : 1712218820510,
+    "stop" : 1712218820590,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop",
+    "time" : {
+      "start" : 1712218818411,
+      "stop" : 1712218820510,
+      "duration" : 2099
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop::0",
+    "time" : {
+      "start" : 1712218820679,
+      "stop" : 1712218820679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLikeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "10020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22eb9ddd56cd0ec6.json",
+  "parameterValues" : [ ]
+}

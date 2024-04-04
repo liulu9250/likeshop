@@ -1,0 +1,139 @@
+{
+  "uid" : "64cd1819621a7851",
+  "name" : "test_brand_01",
+  "fullName" : "case.test_likeshop_02.TestLikeshop02#test_brand_01",
+  "historyId" : "1e5a3a1b6f8e618225d56cd89b181787",
+  "time" : {
+    "start" : 1712218286469,
+    "stop" : 1712218286524,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 == 1",
+  "statusTrace" : "self = <com.baidu.case.test_likeshop_02.TestLikeshop02 object at 0x000001CA6C1DD040>\n\n    def test_brand_01(self):\n        brand = Brand(self.rs)\n        result = brand.addBrand(\"xxxxxx\", \"X\", \"uploads/images/2022021111014949ae08187.png\", 1, 1, \"xxx\")\n>       assert result.json()[\"code\"] == 1\nE       assert 0 == 1\n\nC:\\Downloads\\Day56下_复习第五天-版本管理和jenkins\\Day56下_复习第五天-版本管理和jenkins\\04_代码\\com\\baidu\\case\\test_likeshop_02.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop02",
+    "time" : {
+      "start" : 1712218284383,
+      "stop" : 1712218286469,
+      "duration" : 2086
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0 == 1",
+    "statusTrace" : "self = <com.baidu.case.test_likeshop_02.TestLikeshop02 object at 0x000001CA6C1DD040>\n\n    def test_brand_01(self):\n        brand = Brand(self.rs)\n        result = brand.addBrand(\"xxxxxx\", \"X\", \"uploads/images/2022021111014949ae08187.png\", 1, 1, \"xxx\")\n>       assert result.json()[\"code\"] == 1\nE       assert 0 == 1\n\nC:\\Downloads\\Day56下_复习第五天-版本管理和jenkins\\Day56下_复习第五天-版本管理和jenkins\\04_代码\\com\\baidu\\case\\test_likeshop_02.py:18: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef372b09cb2e4559",
+      "name" : "log",
+      "source" : "ef372b09cb2e4559.txt",
+      "type" : "text/plain",
+      "size" : 230
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop02::0",
+    "time" : {
+      "start" : 1712218286628,
+      "stop" : 1712218286628,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLikeshop02"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "13740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6611da2894dae7b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0 == 1",
+      "time" : {
+        "start" : 1712218265464,
+        "stop" : 1712218265518,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "7750a7666b02e6de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712217882248,
+        "stop" : 1712217882334,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "13192dad12ce6c39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696382435411,
+        "stop" : 1696382435470,
+        "duration" : 59
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "64cd1819621a7851.json",
+  "parameterValues" : [ ]
+}

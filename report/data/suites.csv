@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 04 16:20:51 CST 2024","Thu Apr 04 16:20:52 CST 2024","69","case","test_likeshop_01","TestLikeshop","","","test_01",""
+"failed","Thu Apr 04 16:11:26 CST 2024","Thu Apr 04 16:11:26 CST 2024","55","case","test_likeshop_02","TestLikeshop02","","","test_brand_01",""
+"skipped","Thu Apr 04 16:20:52 CST 2024","Thu Apr 04 16:20:52 CST 2024","0","case","test_likeshop_01","TestLikeshop","","","test_02",""
+"passed","Thu Apr 04 16:20:52 CST 2024","Thu Apr 04 16:20:52 CST 2024","79","case","test_likeshop_01","TestLikeshop","","","test_03",""
