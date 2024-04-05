@@ -1,0 +1,93 @@
+{
+  "uid" : "49681180e8def3f5",
+  "name" : "test_02",
+  "fullName" : "case.test_likeshop_01.TestLikeshop#test_02",
+  "historyId" : "09e196a66d9de805bfe13a3f9ec8a971",
+  "time" : {
+    "start" : 1712240882770,
+    "stop" : 1712240882770,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\com\\\\baidu\\\\case\\\\test_likeshop_01.py', 61, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop",
+    "time" : {
+      "start" : 1712240880613,
+      "stop" : 1712240882694,
+      "duration" : 2081
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop::0",
+    "time" : {
+      "start" : 1712240882833,
+      "stop" : 1712240882833,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLikeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "1852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "49681180e8def3f5.json",
+  "parameterValues" : [ ]
+}

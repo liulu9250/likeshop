@@ -1,0 +1,140 @@
+{
+  "uid" : "f66d2e63b1f519b7",
+  "name" : "test_02",
+  "fullName" : "case.test_likeshop_01.TestLikeshop#test_02",
+  "historyId" : "09e196a66d9de805bfe13a3f9ec8a971",
+  "time" : {
+    "start" : 1712241297455,
+    "stop" : 1712241297455,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\com\\\\baidu\\\\case\\\\test_likeshop_01.py', 61, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop",
+    "time" : {
+      "start" : 1712241295296,
+      "stop" : 1712241297407,
+      "duration" : 2111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLikeshop::0",
+    "time" : {
+      "start" : 1712241297523,
+      "stop" : 1712241297523,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLikeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "20712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d93ece4e40109d3d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1712241198396,
+        "stop" : 1712241198396,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e16e75d35e4b5178",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1712241132134,
+        "stop" : 1712241132134,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b3605830b7fdd18b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1712240982667,
+        "stop" : 1712240982667,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "49681180e8def3f5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1712240882770,
+        "stop" : 1712240882770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "11350b99b271ad42",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1712240851511,
+        "stop" : 1712240851511,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "f66d2e63b1f519b7.json",
+  "parameterValues" : [ ]
+}

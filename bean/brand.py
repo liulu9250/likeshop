@@ -1,5 +1,7 @@
-from com.baidu.utils.api_url import BASE_URL
-from com.baidu.utils.my_utils import logger
+from venv import logger
+
+from utils.api_url import BASE_URL
+
 
 
 class Brand:

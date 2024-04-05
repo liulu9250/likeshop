@@ -1,0 +1,114 @@
+{
+  "uid" : "f9f4f568f31b5848",
+  "name" : "test_03_update",
+  "fullName" : "case.test_likeshop_02.Test01Likeshop#test_03_update",
+  "historyId" : "2203fe617ae105c56a3f640ba8289c91",
+  "time" : {
+    "start" : 1712303763599,
+    "stop" : 1712303763766,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop",
+    "time" : {
+      "start" : 1712303761055,
+      "stop" : 1712303761056,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c9361f21df4a521",
+      "name" : "log",
+      "source" : "6c9361f21df4a521.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop::0",
+    "time" : {
+      "start" : 1712303763766,
+      "stop" : 1712303763766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01Likeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "18352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3ca792917a0ba3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712303634264,
+        "stop" : 1712303634404,
+        "duration" : 140
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f4f568f31b5848.json",
+  "parameterValues" : [ ]
+}

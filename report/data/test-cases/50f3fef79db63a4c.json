@@ -1,0 +1,111 @@
+{
+  "uid" : "50f3fef79db63a4c",
+  "name" : "test_02_upload[pic/f07.jpg]",
+  "fullName" : "case.test_likeshop_02.Test01Likeshop#test_02_upload",
+  "historyId" : "d55116dcb44766c387cfdca747b617c2",
+  "time" : {
+    "start" : 1712303634055,
+    "stop" : 1712303634162,
+    "duration" : 107
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'pic/f07.jpg'",
+  "statusTrace" : "self = <com.baidu.case.test_likeshop_02.Test01Likeshop object at 0x00000136EF06E540>\npic = 'pic/f07.jpg'\n\n    @pytest.mark.parametrize(\"pic\", list)\n    def test_02_upload(self, pic):\n        # 登录，获取token\n        self.login(\"15715317583\", \"yhzy15715317583\", 2)\n        # 获取token\n>       result = self.upload(pic)\n\ncase\\test_likeshop_02.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <com.baidu.case.test_likeshop_02.Test01Likeshop object at 0x00000136EF06E540>\npic = 'pic/f07.jpg'\n\n    def upload(self, pic):\n>       s = open(file=pic, mode=\"rb\")\nE       FileNotFoundError: [Errno 2] No such file or directory: 'pic/f07.jpg'\n\ncase\\test_likeshop_02.py:37: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop",
+    "time" : {
+      "start" : 1712303631614,
+      "stop" : 1712303631615,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'pic/f07.jpg'",
+    "statusTrace" : "self = <com.baidu.case.test_likeshop_02.Test01Likeshop object at 0x00000136EF06E540>\npic = 'pic/f07.jpg'\n\n    @pytest.mark.parametrize(\"pic\", list)\n    def test_02_upload(self, pic):\n        # 登录，获取token\n        self.login(\"15715317583\", \"yhzy15715317583\", 2)\n        # 获取token\n>       result = self.upload(pic)\n\ncase\\test_likeshop_02.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <com.baidu.case.test_likeshop_02.Test01Likeshop object at 0x00000136EF06E540>\npic = 'pic/f07.jpg'\n\n    def upload(self, pic):\n>       s = open(file=pic, mode=\"rb\")\nE       FileNotFoundError: [Errno 2] No such file or directory: 'pic/f07.jpg'\n\ncase\\test_likeshop_02.py:37: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3bc349e73b54c863",
+      "name" : "log",
+      "source" : "3bc349e73b54c863.txt",
+      "type" : "text/plain",
+      "size" : 304
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop::0",
+    "time" : {
+      "start" : 1712303634405,
+      "stop" : 1712303634405,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01Likeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "12412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pic",
+    "value" : "'pic/f07.jpg'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f3fef79db63a4c.json",
+  "parameterValues" : [ "'pic/f07.jpg'" ]
+}

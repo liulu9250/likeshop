@@ -1,2 +1,0 @@
-INFO     root:user.py:23 {"code":1,"msg":"登录成功","data":[],"show":0,"time":"0.038229","wait":3,"url":""}
-INFO     root:brand.py:24 {"code":0,"msg":"该名称已存在","data":[],"show":1,"time":"0.044001","wait":3,"url":""}

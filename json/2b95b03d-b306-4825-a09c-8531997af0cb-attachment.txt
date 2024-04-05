@@ -1,0 +1,2 @@
+INFO     root:test_likeshop_02.py:21 {"code":1,"msg":"登录成功","data":{"id":1,"nickname":"小王","avatar":"http:\/\/192.168.1.5:6688\/static\/common\/image\/default\/user.png","level":0,"disable":0,"distribution_code":"HEP37F","token":"328930c7d47623866766a00098650330"},"show":0,"time":"0.057373"}
+INFO     root:test_likeshop_02.py:42 {"code":1,"msg":"上传文件成功","data":{"url":"http:\/\/192.168.1.5:6688\/uploads\/user\/20240405155603109a93588.jpg","base_url":"uploads\/user\/20240405155603109a93588.jpg","name":"f07.jpg"},"show":0,"time":"0.048939"}

@@ -1,0 +1,1 @@
+INFO     root:test_likeshop_02.py:21 {"code":1,"msg":"登录成功","data":{"id":1,"nickname":"小宋","avatar":"http:\/\/192.168.1.5:6688\/static\/common\/image\/default\/user.png","level":0,"disable":0,"distribution_code":"HEP37F","token":"19bc16171191269db4fca8db47a8ced4"},"show":0,"time":"0.070855"}

@@ -1,0 +1,118 @@
+{
+  "uid" : "fa371dd7ffd4e2be",
+  "name" : "test_02_upload[pic/f06.jpeg]",
+  "fullName" : "case.test_likeshop_02.Test01Likeshop#test_02_upload",
+  "historyId" : "f75f365bc597c2af469143d3245289f4",
+  "time" : {
+    "start" : 1712303763287,
+    "stop" : 1712303763434,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop",
+    "time" : {
+      "start" : 1712303761055,
+      "stop" : 1712303761056,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49b16a5b2e824e67",
+      "name" : "log",
+      "source" : "49b16a5b2e824e67.txt",
+      "type" : "text/plain",
+      "size" : 569
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test01Likeshop::0",
+    "time" : {
+      "start" : 1712303763766,
+      "stop" : 1712303763766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_likeshop_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01Likeshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HGD92VH"
+  }, {
+    "name" : "thread",
+    "value" : "18352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_likeshop_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pic",
+    "value" : "'pic/f06.jpeg'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a23acf5e4dd43ea5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'pic/f06.jpeg'",
+      "time" : {
+        "start" : 1712303633877,
+        "stop" : 1712303633944,
+        "duration" : 67
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa371dd7ffd4e2be.json",
+  "parameterValues" : [ "'pic/f06.jpeg'" ]
+}

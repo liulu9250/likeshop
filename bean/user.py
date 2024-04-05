@@ -1,5 +1,5 @@
-from com.baidu.utils.api_url import BASE_URL
-from com.baidu.utils.my_utils import logger
+from utils.api_url import BASE_URL
+from utils.my_utils import logger
 
 
 class User:

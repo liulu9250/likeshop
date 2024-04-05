@@ -2,29 +2,29 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: assert 0 == 1",
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'pic/f08.png'",
       "children" : [ {
-        "name" : "test_brand_01",
-        "uid" : "64cd1819621a7851",
-        "parentUid" : "4aa308f7dbecae29a058295957a40c45",
-        "status" : "failed",
+        "name" : "test_02_upload[pic/f08.png]",
+        "uid" : "c0bc8dd28e938165",
+        "parentUid" : "47c8cb5d717d3dbb6b19099c684a76c1",
+        "status" : "broken",
         "time" : {
-          "start" : 1712218286469,
-          "stop" : 1712218286524,
-          "duration" : 55
+          "start" : 1712303634168,
+          "stop" : 1712303634258,
+          "duration" : 90
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'pic/f08.png'" ]
       } ],
-      "uid" : "4aa308f7dbecae29a058295957a40c45"
+      "uid" : "47c8cb5d717d3dbb6b19099c684a76c1"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
